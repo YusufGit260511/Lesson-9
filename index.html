@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="container_h1">Music App</h1>
+        <img src="img/beta img.png" alt="" id="container_img">
+        <div class="container-mainInfo">
+            <h1 id="track-name">Janze</h1>
+            <h5 id="track-author">Xamdam Sobirov</h5>
+        </div>
+        <ul id="music-select">
+            <li id="nowPlayingMusic">
+                <p id="nowPlayingMusic_p">Odamlar nima deydi - Konsta</p>
+                <img src="img/open ul.png" alt="" class="openDropDown">
+            </li>
+        </ul>
+
+        <div class="playingarea">
+            <canvas id="visualizer"></canvas>
+            <div class="time">
+                <div id="nowtime"></div>
+                <div id="duration"></div>
+            </div>
+        </div>
+
+        <div class="buttonarea">
+            <button id="preview" class="button">⏮️</button>
+            <button id="playButton" class="button">▶️</button>
+            <button id="next" class="button">⏭️</button>
+        </div>
+        <audio src="audio/Ace of Base - Happy Nation (Lyrics).mp3" id="audio1"></audio>
+    </div>
+
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
